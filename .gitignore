@@ -1,0 +1,12 @@
+# Ignorar archivos de configuración local
+config.ini
+
+# Ignorar directorios de dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos generados automáticamente
+*.log
+*.cache
+.notebook
+

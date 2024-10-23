@@ -1,0 +1,39 @@
+form{
+    margin: 10px;
+    border-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    border-color: rgb(112, 31, 31);
+    color: rgb(44, 43, 43);
+    
+}
+select{
+    border-color: rgb(131, 12, 12);
+}
+label{
+    color: rgb(44, 43, 43);
+    
+}
+.imp{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+}
+.vip{
+    flex-direction: row;
+}
+.img_Admin{
+    width: 500px;
+    height: 80%;
+    padding-top: 100px;
+    border-radius: 35%;
+}
+
+section{
+    padding-left: 40px;
+
+}
