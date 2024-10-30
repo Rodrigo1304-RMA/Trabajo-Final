@@ -20,7 +20,6 @@ public class ReporteExcel {
         List<Producto> productos = new ArrayList<>();
         String usuario = "root";
         String contraseña = "password";
-        String url = "jdbc:mysql://localhost:3306/tu_base_de_datos"; // Asegúrate de configurar tu URL
 
         try (Connection conn = DriverManager.getConnection(url, usuario, contraseña);
              Statement stmt = conn.createStatement();
